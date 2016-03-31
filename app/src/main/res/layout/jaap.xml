@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="@color/coloryellow"
+        android:id="@+id/linearLayoutHeader"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/erase"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <customlayout.CustomTextViewRegular
+            android:layout_centerInParent="true"
+            android:textColor="@color/menutextcolor"
+            android:textSize="25dp"
+            android:text="hello hanuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:id="@+id/imageViewInformation"
+            android:src="@mipmap/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/linearLayoutHeader"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/imagesGrid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/countsAboveLyt"
+            android:numColumns="4"></GridView>
+
+        <RelativeLayout
+            android:id="@+id/countsAboveLyt"
+            android:layout_marginBottom="@dimen/small_brush"
+            android:layout_above="@+id/viewGrey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+    >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutMyCount"
+                android:background="@color/coloryellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:layout_marginLeft="@dimen/medium_brush"
+                >
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/black_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:text="MY COUNT"
+                    android:gravity="center"
+                    android:id="@+id/textViewWorldCount"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+
+                    android:textColor="@color/black_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textViewMyCountNumber"
+                    android:layout_alignRight="@+id/textViewWorldCount"
+                    android:layout_alignEnd="@+id/textViewWorldCount"
+                    android:layout_below="@+id/textViewWorldCount"
+                    android:layout_alignLeft="@+id/textViewWorldCount"
+                    android:layout_alignStart="@+id/textViewWorldCount" />
+            </RelativeLayout>
+            <RelativeLayout
+
+                android:layout_alignParentRight="true"
+                android:id="@+id/relativeLayoutUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:layout_marginRight="@dimen/medium_brush"
+                android:layout_alignBottom="@+id/relativeLayoutWorldCount">
+
+                <ImageView
+                    android:id="@+id/uploadImg"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="@dimen/medium_brush"
+                    android:src="@mipmap/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_toRightOf="@+id/relativeLayoutMyCount"
+                android:id="@+id/relativeLayoutWorldCount"
+                android:background="@color/coloryellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:layout_marginLeft="@dimen/medium_brush"
+                >
+                <TextView
+                    android:padding="10dp"
+                    android:textColor="@color/black_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:text="WORLD COUNT"
+                    android:gravity="center"
+                    android:id="@+id/textViewBeadCount"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    />
+                <TextView
+                    android:textColor="@color/black_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/textViewBeadCountNumber"
+                    android:layout_alignRight="@+id/textViewBeadCount"
+                    android:layout_alignEnd="@+id/textViewBeadCount"
+                    android:layout_below="@+id/textViewBeadCount"
+                    android:layout_alignLeft="@+id/textViewBeadCount"
+                    android:layout_alignStart="@+id/textViewBeadCount" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/viewGrey"
+            android:layout_marginLeft="@dimen/medium_brush"
+            android:layout_marginRight="@dimen/medium_brush"
+            android:layout_above="@+id/linearLayoutRaam"
+            android:background="@color/view_color"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/small_brush">
+
+        </View>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRaam"
+            android:background="@color/light_blue"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:src="@mipmap/ram_jaap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:id="@+id/llCanvas"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/roundrect"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

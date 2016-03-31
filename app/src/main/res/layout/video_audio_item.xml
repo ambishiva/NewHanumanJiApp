@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_marginLeft="@dimen/fifteen_brush"
+        android:layout_marginRight="@dimen/fifteen_brush"
+        android:id="@+id/relativeLayoutAudioVideoMain"
+        android:background="@mipmap/list_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutReadAbout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:visibility="invisible"
+                android:id="@+id/imageViewReadAbout"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:textColor="@color/black_color"
+                android:layout_toRightOf="@+id/imageViewReadAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/fifteen_brush"
+                android:text="Ramayanan Full Cartoon Movie for Kids English"
+                android:id="@+id/textViewAudioVideoTitle"
+
+                android:layout_marginRight="40dp"
+                android:layout_alignParentTop="true"
+
+
+                />
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="40dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_toRightOf="@+id/imageViewReadAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raamamrit Pad Paawan Vani,Ram-Naam Dhun Sudha Saamani dsds sdsdsd sdsds dssds dsdsds sdsdsdsdsdssd"
+                android:id="@+id/textViewDescriptionAudio"
+                android:layout_below="@+id/textViewAudioVideoTitle"
+
+
+
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

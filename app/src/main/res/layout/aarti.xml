@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    android:id="@+id/container"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="@color/coloryellow"
+        android:id="@+id/linearLayoutHeader"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewBack"
+           android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/back"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <customlayout.CustomTextViewRegular
+            android:layout_centerInParent="true"
+            android:textColor="@color/menutextcolor"
+            android:textSize="25dp"
+            android:text="hanuman aartis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="@color/menutextcolor"
+            android:textSize="@dimen/large_brush"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"
+            android:text="Aa"
+            android:id="@+id/imageViewChangeAarti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrollViewDoha"
+            android:layout_below="@+id/linearLayoutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayoutAarti"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutFirstDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewFirstDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/first_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutSecondDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewSecondDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/second_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutThirdDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewThirdDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/third_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutFourthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewFourthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/fourth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutFifthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewFifthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/fifth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutSixthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewSixthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/sixth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutSeventhDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewSeventhDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/seventh_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutEigthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewEigthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/eighth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutNinthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewNinthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/ninth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativeLayoutTenthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewTenthDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/tenth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutEleventhDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewEleventhDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/eleventh_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutTwelthDoha"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewTwelvethDoha"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="@dimen/medium_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="@string/twelth_doha_hindi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

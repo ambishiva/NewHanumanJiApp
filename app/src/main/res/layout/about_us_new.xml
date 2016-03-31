@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="@color/coloryellow"
+        android:id="@+id/linearLayoutHeader"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewBack"
+           android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/back"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <customlayout.CustomTextViewRegular
+            android:layout_centerInParent="true"
+            android:textColor="@color/menutextcolor"
+            android:textSize="25dp"
+            android:text="About Us"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/imageViewInformation"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/linearLayoutHeader"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_margin="@dimen/menu_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <customlayout.CustomTextViewRegular
+                android:textSize="@dimen/large_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="About Us"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:visibility="gone"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/menu_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/medium_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/thareja"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="Thareja Inc."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/menu_margin"
+
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/medium_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/about_us_data_color"
+                android:text="@string/about_us_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_margin="@dimen/menu_margin"
+
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="@dimen/medium_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/blue_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="http://thareja.org/"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="invisible"
+            android:layout_margin="@dimen/menu_margin"
+            android:background="@color/menucolor"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="Help"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

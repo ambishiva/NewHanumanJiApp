@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+
+    <LinearLayout
+        android:background="@color/coloryellow"
+        android:id="@+id/linearLayoutHeader"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/imageViewBack"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <customlayout.CustomTextViewRegular
+            android:textColor="@color/menutextcolor"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="hello hanuman"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+
+            android:visibility="invisible"
+            android:id="@+id/imageViewInformation"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/linearLayoutHeader"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+
+            android:background="#f8ebc8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:visibility="invisible"
+                android:layout_margin="@dimen/small_brush"
+                android:id="@+id/imageViewFirst"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/imageViewFirst"
+                android:id="@+id/lldocs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/small_brush"
+                android:id="@+id/textViewFirstHttp"
+                android:textSize="@dimen/fifteen_brush"
+                android:textColor="@color/menutextcolor"
+                android:text="https://"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_below="@+id/textViewFirstHttp"
+                android:textSize="@dimen/fifteen_brush"
+                android:textColor="@color/menutextcolor"
+                android:layout_toRightOf="@+id/imageViewFirst"
+                android:text="www.google.com"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewOpenFirst"
+                android:textColor="@color/menutextcolor"
+                android:padding="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:background="@drawable/rounded_bg_open"
+                android:text="OPEN"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_margin="8dp"
+            android:background="#f8ebc8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:visibility="invisible"
+                android:layout_margin="@dimen/small_brush"
+                android:id="@+id/imageViewSecond"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/imageViewSecond"
+                android:id="@+id/lldocs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/small_brush"
+                    android:id="@+id/textViewSecondHttp"
+                    android:textSize="@dimen/fifteen_brush"
+                    android:textColor="@color/menutextcolor"
+                    android:text="https://"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:ellipsize="end"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/textViewSecondHttp"
+                    android:textSize="@dimen/fifteen_brush"
+                    android:textColor="@color/menutextcolor"
+                    android:text="www.google.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textViewOpenSecond"
+                android:textColor="@color/menutextcolor"
+                android:padding="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:background="@drawable/rounded_bg_open"
+                android:text="OPEN"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:background="#f8ebc8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:visibility="invisible"
+                android:layout_margin="@dimen/small_brush"
+                android:id="@+id/imageViewThird"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/imageViewThird"
+                android:id="@+id/lldocs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/small_brush"
+                    android:id="@+id/textViewThirdHttp"
+                    android:textSize="@dimen/fifteen_brush"
+                    android:textColor="@color/menutextcolor"
+                    android:text="https://"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_below="@+id/textViewThirdHttp"
+                    android:textSize="@dimen/fifteen_brush"
+                    android:textColor="@color/menutextcolor"
+                    android:layout_toRightOf="@+id/imageViewFirst"
+                    android:text="www.google.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewOpenThird"
+                android:textColor="@color/menutextcolor"
+                android:padding="5dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="@dimen/medium_brush"
+                android:background="@drawable/rounded_bg_open"
+                android:text="OPEN"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

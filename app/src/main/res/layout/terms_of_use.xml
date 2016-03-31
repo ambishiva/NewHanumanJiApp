@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+
+    <RelativeLayout
+        android:background="@color/coloryellow"
+        android:id="@+id/linearLayoutHeader"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/back"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <customlayout.CustomTextViewRegular
+            android:textColor="@color/menutextcolor"
+            android:textSize="25dp"
+            android:layout_centerInParent="true"
+            android:text="Terms of Use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:visibility="invisible"
+            android:id="@+id/imageViewInformation"
+
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:background="@drawable/rounded_bg"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/linearLayoutHeader"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_margin="@dimen/menu_margin"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <customlayout.CustomTextViewRegular
+                android:padding="@dimen/medium_brush"
+                android:textSize="@dimen/medium_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="hello hanuman app end user license agreement"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/about_us_data_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/end_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/about_us_data_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/end_user_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="1. Parties"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:textStyle="bold"
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/about_us_data_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/parties"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+
+                android:visibility="invisible"
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/about_us_data_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:visibility="invisible"
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textColor="@color/about_us_data_color"
+                android:gravity="center|left"
+                android:layout_weight="1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

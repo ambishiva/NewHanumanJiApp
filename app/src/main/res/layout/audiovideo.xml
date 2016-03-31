@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+    <RelativeLayout
+    android:background="@color/coloryellow"
+    android:id="@+id/linearLayoutHeader"
+android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/back"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <customlayout.CustomTextViewRegular
+        android:layout_centerInParent="true"
+        android:textColor="@color/menutextcolor"
+        android:textSize="25dp"
+
+        android:text="hello hanuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+
+        android:visibility="invisible"
+        android:id="@+id/imageViewInformation"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/linearLayoutHeader"
+        android:id="@+id/linearLayoutAudioVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Audios"
+                android:textColor="@drawable/rbtn_textcolor_selector" />
+
+            <RadioButton
+                android:id="@+id/radioiPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Videos"
+                android:textColor="@drawable/rbtn_textcolor_selector" />
+
+            <RadioButton
+                android:id="@+id/radioWindows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="All"
+                android:textColor="@drawable/rbtn_textcolor_selector" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <ListView
+
+        android:layout_marginTop="5dp"
+        android:dividerHeight="5dp"
+        android:divider="@android:color/transparent"
+        android:layout_below="@+id/linearLayoutAudioVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewAudioVideoHanumanJi" />
+
+
+</RelativeLayout>

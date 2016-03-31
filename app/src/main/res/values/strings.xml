@@ -1,0 +1,213 @@
+<resources>
+
+    <string-array name="fragment_list">
+        <item>Horizontal</item>
+        <item>Vertical</item>
+    </string-array>
+    <string name="app_name">HanumanApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1146926275317583</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="about_us_data">We are fully committed to building innovations that we help benifit all.</string>
+    <string name="end_user">This End User License Agreement ("Agreement") is between you and Hello Hanuman and governs use
+        of this app made available through the Apple App Store.By installing the Hello Hanuman App , you agree to be bound by this
+        agreement and understand that there is no tolerance for objectionable content.if you do not agree with the terms and
+        condition of this agreement ,you are not entitled to use the hanuman app"
+    </string>
+    <string name="end_user_one">In order to ensure Hello Hanuman provides the best experience possible for everyone,
+        we strongly enforce a no tolerance policy for objectionable content. If you see inappropriate content please use the
+        "Report as offensive" feature found each post
+    </string>
+
+    <string name="parties">This Agreement is between you and Hello Hanuman only, and not Apple. Inc. (Apple).
+    Notwithstanding the foregoing, you acknowledge that apple and its subsiadairies are third party benefeciaries
+    of this Agreement and apple has the right to enforce this Agreement aganist you. Hello Hanuman, not Apple
+    is solely responsible for this Hello Hanuman App</string>
+
+    <string name="audio_video_of_hanuman_ji">Shri guru Charan Sarooja-raj Nija manu Mukara Sudhaari Barnau Bimala
+        Yasha Jo Dayaka Phala Chari Budhee-Heen Thanu Janikay Sumirow Pavana Kumara Bala-Budhee Vidya Dehoo Mohee
+        Harahu Kalesha Vikaara
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="first_doha">Aarthi jai Hanumaannaa lalaa ki,Dushta dalana Raghunatha kala ki
+    </string>
+    <string name="first_doha_hindi">आरती किजे हनुमान लला की | दुष्ट दलन रघुनाथ कला की ॥</string>
+
+
+
+    <string name="second_doha"> Jaake bal se girivira kampe, Bhootha piscchaa nikata nahi jaanke</string>
+
+    <string name="second_doha_hindi">जाके बल से गिरवर काँपे | रोग दोष जाके निकट ना झाँके ॥ </string>
+    <string name="third_doha">Anjani putra maha baldai, Santan ke prabhu sada sahai</string>
+    <string name="third_doha_hindi">अंजनी पुत्र महा बलदाई | संतन के प्रभु सदा सहाई ॥</string>
+    <string name="fourth_doha">De beera raghunath pathaye, Lanka jari siya sudhi laye</string>
+    <string name="fourth_doha_hindi">दे वीरा रघुनाथ पठाये | लंका जाये सिया सुधी लाये ॥</string>
+    <string name="fifth_doha">Lanka so kot samudar si khai, Jat pawansut dwar na layi</string>
+    <string name="fifth_doha_hindi">लंका सी कोट संमदर सी खाई | जात पवनसुत बार न लाई ॥ </string>
+    <string name="sixth_doha">Lanka jari asur sanhare, Siyaramji ke kaaj shaware</string>
+    <string name="sixth_doha_hindi">लंका जारि असुर संहारे | सियाराम जी के काज सँवारे ॥ </string>
+    <string name="seventh_doha">Laxman murchit pade sakare, Aani sanjeevan pran ubare</string>
+    <string name="seventh_doha_hindi">लक्ष्मण मुर्छित पडे सकारे | आनि संजिवन प्राण उबारे ॥</string>
+    <string name="eighth_doha">Paithi patal tori jam-kare, Aahiravan ki bhuja ukhare</string>
+    <string name="eighth_doha_hindi">पैठि पताल तोरि जम कारे| अहिरावन की भुजा उखारे ॥</string>
+    <string name="ninth_doha">Baye bhuja asurdal mare, Dahine bhuja santjan tare</string>
+    <string name="ninth_doha_hindi">बायें भुजा असुर दल मारे | दाहीने भुजा सब संत जन उबारे ॥</string>
+    <string name="tenth_doha">Sur nar munijan aarti utare, Jai jai jai hanuman uchare</string>
+    <string name="tenth_doha_hindi">सुर नर मुनि जन आरती उतारे | जै जै जै हनुमान उचारे ॥</string>
+    <string name="eleventh_doha">Kanchan thar kapor lau chayi, Aarti karat anjana mai</string>
+    <string name="eleventh_doha_hindi">कचंन थाल कपूर लौ छाई | आरती करत अंजनी माई ॥</string>
+    <string name="twelth_doha">Jo hanuman ji ke aarti gave, Basi baykunth param pad pave, Aarti keeje hanuman lalaa ki</string>
+    <string name="twelth_doha_hindi">जो हनुमान जी की आरती गाये | बसहिं बैकुंठ परम पद पायै ॥</string>
+
+
+
+
+
+
+
+    <string name="privacy_policy_first">This privacy policy governs your use of the software application Hello Hanuman (“Application”) for mobile devices that was created by Thareja Inc.. The Application is a collection of prayers, videos, audios, and a mala.</string>
+    <string name="privacy_application">What information does the Application obtain and how is it used? </string>
+    <string name="uses">Uses Provided Application</string>
+    <string name="privacy_policy_second">The Application obtains the information you provide when you download and register the Application. Registration with us is optional. However, please keep in mind that you may not be able to use some of the features offered by the Application unless you register with us.
+                When you register with us and use the Application, you generally provide (a) your name, email address, age, user name, password and other registration information; (b) transaction-related information, such as when you make purchases, respond to any offers, or download or use applications from us; (c) information you provide us when you contact us for help; (d) credit card information for purchase and use of the Application, and; (e) information you enter into our system when using the Application, such as contact information and project management information.
+                We may also use the information you provided us to contact your from time to time to provide you with important information, required notices and marketing promotions.</string>
+
+    <string name="automatically_colledted_information_title">Automatically Collected Information</string>
+    <string name="automatically_collected_info">In addition, the Application may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile devices unique device ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browsers you use, and information about the way you use the Application.
+                Does the Application collect precise real time location information of the device?
+                This Application does not collect precise information about the location of your mobile device.
+                Do third parties see and/or have access to information obtained by the Application?
+                Yes. We will share your information with third parties only in the ways that are described in this privacy statement.
+                We may disclose User Provided and Automatically Collected Information: as required by law, such as to comply with a subpoena, or similar legal process;
+                when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
+                with our trusted services providers who work on our behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+                if Thareja Inc. is involved in a merger, acquisition, or sale of all or a portion of its assets, you will be notified via email and/or a prominent notice on our Web site of any change in ownership or uses of this information, as well as any choices you may have regarding this information.
+                to advertisers and third party advertising networks and analytics companies as described in the section below </string>
+    
+     <string name="Automatic_Data_Collection_and_Advertising">Automatic Data Collection and Advertising</string>
+     <string name="Automatic_Data_Collection_and_Advertising_info">We may work with analytics companies to help us understand how the Application is being used, such as the frequency and duration of usage.
+         We work with advertisers and third party advertising networks, who need to know how you interact with advertising provided in the Application which helps us keep the cost of the Application low. Advertisers and advertising networks use some of the information collected by the Application, including,
+         but not limited to, the unique identification ID of your mobile device and your mobile telephone number.
+         To protect the anonymity of this information, we use an encryption technology to help ensure that these third parties can’t identify you personally.
+         These third parties may also obtain anonymous information about other applications you’ve downloaded to your mobile device,
+         the mobile websites you visit, your non-precise location information (e.g., your zip code), and other non- precise location information in order to help analyze and serve anonymous targeted advertising on the Application and elsewhere. We may also share encrypted versions of information you have provided in order to enable our partners to append other available information about you for analysis or advertising related use.
+         If you’d like to opt-out from third party use of this type of information to help serve targeted advertising, please visit the section entitled “Opt-out” below.</string>
+    <string name="opt_out_rights">What are my opt-out rights?</string>
+    <string name="opt_out_rights_info">There are multiple opt-out options for users of this Application:
+        Opt-out of all information collection by uninstalling the Application:
+        You can stop all collection of information by the Application easily by uninstalling the Application.
+        You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+        You can also request to opt-out via email, at privacy@thareja.org
+        Opt-out from the use of information to serve targeted advertising by advertisers and/or third party network advertisers: you may at any time opt-out from further allowing us to have access to your location data by disabling access in the mobile settings section of your phone.. </string>
+    <string name="Data_Retention_Policy">Data Retention Policy, Managing Your Information </string>
+    <string name="data_retention_info">We will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. We will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate.
+        If you’d like us to delete User Provided Data that you have provided via the Application, please contact us at privacy@thareja.org and we will respond in a reasonable time.
+        Please note that some or all of the User Provided Data may be required in order for the Application to function properly.</string>
+    <string name="children">Children</string>
+    <string name="children_info">We do not use the Application to knowingly solicit
+        data from or market to children under the age of 13.
+        If a parent or guardian becomes aware that his or her child has provided us with information without their consent,
+        he or she should contact us at privacy@thareja.org
+        We will delete such information from our files within a reasonable time.</string>
+    <string name="security">Security</string>
+    <string name="security_data">We are concerned about safeguarding the confidentiality of your information.
+        We provide physical, electronic, and procedural safeguards to protect information we process and maintain.
+        For example, we limit access to this information to authorized employees and contractors who need to know that information in order to operate,
+        develop or improve our Application.
+        Please be aware that,
+        although we endeavor provide reasonable security for information we process and maintain,
+        no security system can prevent all potential security breaches.</string>
+    <string name="changes">Changes</string>
+    <string name="changes_info">This Privacy Policy may be updated from time to time for any reason.
+        We will notify you of any changes to our Privacy Policy by posting the new Privacy Policy here and
+        informing you via email or text message.
+        You are advised to consult this Privacy Policy regularly for any changes,
+        as continued use is deemed approval of all changes.
+        You can check the history of this policy by clicking here.</string>
+    <string name="your_consent">Your Consent</string>
+    <string name="your_consent_info">By using the Application,you are consenting to our processing of your information as set forth in this Privacy Policy now and
+        as amended by us. "Processing,” means using cookies on a computer/hand held device or using or touching information in any way, including, but not limited to, collecting, storing, deleting, using, combining and disclosing information, all of which activities will take place in the United States.
+        If you reside outside the United States your information will be transferred, processed and stored there under United States privacy standards.</string>
+    <string name="contact_us_info">If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at privacy@thareja.org</string>
+
+
+    <string name="main_mantra">ॐ अईम भ्रीम हनुमते, श्री राम दूताय नम</string>
+    <string name="second_mantra">Aum aeem bhreem hanumate, shree ram dootaaya namaha.We pray to the Lord Hanuman, who is the greatest server and messenger of the Lord incarnate, Shree Rama</string>
+    <string name="i_am_asked_times">I am asked at times why there are 108 beads or a division of that number (ex. 54, 27, 18, and 9)</string>
+    <string name="swami_muktanand">Swami Muktananda explains it perfectly, clearly and precise when describing the heart as the source of the infinite and our connection with the divine and God. From the heart there are 108 MAIN nadis (veins) that go from the heart to all the extrimeties and after reciting a mantra 108 times you have purified your body. In this way a meditator can see the importance in reciting mantra</string>
+    <string name="in_ayurvedic">In Ayurvedic Medicine they talk of the 108 MARMAS. Marmas are vital points in our body where muscles, bones, joints, arteries, and nerves meet creating the vital flow of life.</string>
+    <string name="below_i_have">Below I have collected some other information that helps to explain in other ways the number 108. The first part is a quick read with point-form explanation while the additional article is extensive</string>
+    <string name="none_of_these">None of these reasons are being promoted here as more or less true than the others. However, you may notice that 108 appears to be somewhat like a road map of reality in general, and the human in particular.</string>
+    <string name="regrardless">Regardless of the meaning of 108, it is important that if a mala is used to count mantras, the mantra be remembered with sincerity, devotion, feeling, and full attention.</string>
+    <string name="nine_times">9 times 12: Both of these numbers have been said to have spiritual significance in many traditions. 9 times 12 is 108. Also, 1 plus 8 equals 9. That 9 times 12 equals 108.</string>
+    <string name="power_of">Powers of 1, 2, and 3 in math: 1 to 1st power=1; 2 to 2nd power=4 (2x2); 3 to 3rd power=27 (3x3x3). 1x4x27=108</string>
+    <string name="harshad">Harshad number: 108 is a Harshad number, which is an integer divisible by the sum of its digits (Harshad is from Sanskrit, and means "great joy")</string>
+    <string name="desire">Desires: There are said to be 108 earthly desires in mortals.</string>
+    <string name="lies">Lies:There are said to be 108 lies that humans tell.</string>
+    <string name="delusions">Delusions: There are said to be 108 human delusions or forms of ignorance.</string>
+
+    <string name="heart_chakra">Heart Chakra: The chakras are the intersections of energy lines, and there are said to be a total of 108 energy lines converging to form the heart chakra. One of them, sushumna leads to the crown chakra, and is said to be the path to Self-realization.</string>
+     <string name="sanskrit">Sanskrit alphabet: There are 54 letters in the Sanskrit alphabet. Each has masculine and feminine, shiva and shakti. 54 times 2 is 108.</string>
+    <string name="pranayam">Pranayama: If one is able to be so calm in meditation as to have only 108 breaths in a day, enlightenment will come.</string>
+     <string name="upnashid">Upanishads: Some say there are 108 Upanishads, texts of the wisdom of the ancient sages.</string>
+    <string name="sri">Sri Yantra: On the Sri Yantra there are marmas where three lines intersect, and there are 54 such intersections. Each intersections has masculine and feminine, shiva and shakti qualities. 54 times 2 equals 108. Thus, there are 108 points that define the Sri Yantra as well as the human body.</string>
+     <string name="pentagaon">Pentagon: The angle formed by two adjacent lines in a pentagon equals 108 degrees.</string>
+    <string name="marmas">Marmas: Marmas or marmasthanas are like energy intersections called chakras, except have fewer energy lines converging to form them. There are said to be 108 marmas in the subtle body.</string>
+     <string name="time">Time: Some say there are 108 feelings, with 36 related to the past, 36 related to the present, and 36 related to the future.</string>
+    <string name="eight_extra">8 extra beads: In doing a practice of counting the number of repetitions of the mala, 100 are counted as completed. The remaining are said to cover errors or omissions. The 8 are also said to be an offering to God and Guru.</string>
+
+    <string name="chemistry">Chemistry: Interestingly, there are about 115 elements known on the periodic table of the elements. Most of those, around or higher than the number 100 only exist in the laboratory, and some for only thousandths of a second. The number that naturally exist on Earth is around 100.</string>
+     
+    <string name="astrology">Astrology: There are 12 constellations, and 9 arc segments called namshas or chandrakalas. 9 times 12 equals 108. Chandra is moon, and kalas are the divisions within a whole.</string>
+     
+    <string name="river_ganga">River Ganga: The sacred River Ganga spans a longitude of 12 degrees (79 to 91), and a latitude of 9 degrees (22 to 31). 12 times 9 equals 108.</string>
+     
+    <string name="planet_house">Planets and Houses: In astrology, there are 12 houses and 9 planets. 12 times 9 equals 108.</string>
+     
+    <string name="goddess_name">Goddess names: There are said to be 108 Indian goddess names.</string>
+     
+    <string name="gopis">Gopis of Krishna: In the Krishna tradition, there were said to be 108 gopis or maid servants of Krishna.</string>
+     <string name="one_zero">1, 0, and 8: Some say that 1 stands for God or higher Truth, 0 stands for emptiness or completeness in spiritual practice, and 8 stands for infinity or eternity.</string>
+    <string name="sun_earth">Sun and Earth: The diameter of the Sun is 108 times the diameter of the Earth. The distance from the Sun to the Earth is 108 times the diameter of the Sun.</string>
+    <string name="moon_earth">Moon and Earth: The average distance of the Moon from the Earth is 108 times the diameter of the Moon.</string>
+     
+    <string name="silver_moon">Silver and the moon: In astrology, the metal silver is said to represent the moon. The atomic weight of silver is 108.</string>
+    <string name="numerical">Numerical scale: The 1 of 108, and the 8 of 108, when added together equals 9, which is the number of the numerical scale, i.e. 1, 2, 3 ... 10, etc., where 0 is not a number.</string>
+     <string name="meditation">Meditations: Some say there are 108 styles of meditation.</string>
+
+     <string name="breath">Breath: Tantra estimates the average number of breaths per day at 21,600, of which 10,800 are solar energy, and 10,800 are lunar energy. Multiplying 108 by 100 is 10,800. Multiplying 2 x 10,800 equals 21,600.</string>
+
+     <string name="path_to_god">Paths to God: Some suggest that there are 108 paths to God.</string>
+    <string name="smaller_division">Smaller divisions: The number 108 is divided, such as in half, third, quarter, or twelfth, so that some malas have 54, 36, 27, or 9 beads.</string>
+     
+    <string name="hinduism">Hinduism: 108 is said to refer to the number of Hindu deities. Some say that each of the deities has 108 names.</string>
+     
+
+     <string name="islam">Islam: The number 108 is used in Islam to refer to God.</string>
+
+     <string name="jain">Jain: In the Jain religion, 108 are the combined virtues of five categories of holy ones, including 12, 8, 36, 25, and 27 virtues respectively.</string>
+    <string name="sikh">Sikh: The Sikh tradition has a mala of 108 knots tied in a string of wool, rather than beads.</string>
+     
+    <string name="budh">Buddhism: Some Buddhists carve 108 small Buddhas on a walnut for good luck. Some ring a bell 108 times to celebrate a new year. There are said to be 108 virtues to cultivate and 108 defilements to avoid.</string>
+     <string name="chines">Chinese: The Chinese Buddhists and Taoists use a 108 bead mala, which is called su-chu, and has three dividing beads, so the mala is divided into three parts of 36 each. Chinese astrology says that there are 108 sacred stars.</string>
+
+     <string name="stage_soul">Stages of the soul: Said that Atman, the human soul or center goes through 108 stages on the journey.</string>
+    <string name="meru">Meru: This is a larger bead, not part of the 108. It is not tied in the sequence of the other beads. It is the quiding bead, the one that marks the beginning and end of the mala.</string>
+     <string name="dance">Dance: There are 108 forms of dance in the Indian traditions.</string>
+
+    <string name="praise_worth">Praiseworthy souls: There are 108 qualities of praiseworthy souls.</string> 
+    <string name="first_man">First man in space: The first manned space flight lasted 108 minutes, and was on April 12, 1961 by Yuri Gagarin, a Soviet cosmonaut.</string>
+    <string name="impotance">Importance of Jaap of Bhagwan Name</string>
+    <string name="devotee">A devotee asked, "How does the repetition of the name of God help Realization?Shree Ramana Maharshi said - "The original name is always going on spontaneously without any effort on the part of the individual. That name is "aham" "I". But when it becomes manifest it manifests as "Ahankaar" the ego. The oral repetition of the name leads one to mental repetition which finally resolves itself into the eternal vibration. The mind or the mouth cannot act without the Self."</string>
+    <string name="grace">Grace of Jaap</string>
+    <string name="jaap_def">Jaap is the constant repetition of the Lord’s name or a Mantra from the scriptures, either aloud or silently with full attention. Through repetition the mantra is ingrained and leaves a strong impression in the mind. The mind is a vast storehouse of strong impressions, which come from past habits created through repetition. These impressions are the source from which thoughts in the mind arise.Jaap is a technique given in the scriptures, by our ancient sages. A Mantra is defined as a word or a sentence from the scriptures with a deep meaning having the power to transform our whole being. A Mantra is defined as: "Mannat Trayate Iti" Mantra - that which protects us when we contemplate upon it. Mantra possess their own hidden power, which lies concealed in them. Each Mantra has its own resident Devtaa and so also its own Rishi (the one who reveals the Mantra). When chanted with the right attitude, remembering its Devtaa, Shakti and Rishi, it creates its own divine vibration. The power inherent in each Mantra cleanses and purifies the mind, which is made up of thoughts and subtle vibrations.</string>
+
+    
+</resources>

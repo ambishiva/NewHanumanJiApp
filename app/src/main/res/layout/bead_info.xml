@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#AA000000"
+
+
+    >
+
+    <LinearLayout
+        android:background="@drawable/rounded_bg_brown_color"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:id="@+id/linearLayoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:visibility="gone"
+                android:id="@+id/imageViewBack"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/back"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <customlayout.CustomTextViewRegular
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:textColor="@color/menutextcolor"
+                android:textSize="25dp"
+                android:text="About Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:visibility="visible"
+                android:id="@+id/imageViewDismiss"
+                android:src="@mipmap/browncross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="@dimen/menu_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textViewMantra"
+                android:textSize="@dimen/fifteen_brush"
+
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/main_mantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textViewMantra"
+                android:textSize="@dimen/fifteen_brush"
+                android:textStyle="bold"
+                android:textColor="@color/about_us_data_color"
+                android:text="@string/second_mantra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/menu_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_next"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_margin="@dimen/menu_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="Meaning of 108 beads on a Mala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="visible"
+            android:layout_margin="@dimen/menu_margin"
+
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewIAmAsked"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/i_am_asked_times"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewSwami"
+                android:layout_below="@+id/textViewIAmAsked"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/swami_muktanand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewAyurVedic"
+                android:layout_below="@+id/textViewSwami"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/in_ayurvedic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+            android:id="@+id/textViewBelow"
+            android:layout_below="@+id/textViewAyurVedic"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/info"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:text="@string/below_i_have"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewNoneOfthese"
+                android:layout_below="@+id/textViewBelow"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/none_of_these"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewRegardless"
+                android:layout_below="@+id/textViewNoneOfthese"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/regrardless"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewNineTimes"
+                android:layout_below="@+id/textViewRegardless"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/nine_times"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPowerOf"
+                android:layout_below="@+id/textViewNineTimes"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/power_of"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewHarshad"
+                android:layout_below="@+id/textViewPowerOf"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/harshad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewDesires"
+                android:layout_below="@+id/textViewHarshad"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/desire"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewLies"
+                android:layout_below="@+id/textViewDesires"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/lies"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewDelusion"
+                android:layout_below="@+id/textViewLies"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/delusions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewHeartChakra"
+                android:layout_below="@+id/textViewDelusion"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/heart_chakra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewSanskrit"
+                android:layout_below="@+id/textViewHeartChakra"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/sanskrit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPranyama"
+                android:layout_below="@+id/textViewSanskrit"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/pranayam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewUpnashid"
+                android:layout_below="@+id/textViewPranyama"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/upnashid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewShri"
+                android:layout_below="@+id/textViewUpnashid"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/sri"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPentagon"
+                android:layout_below="@+id/textViewShri"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/pentagaon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewMamas"
+                android:layout_below="@+id/textViewPentagon"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/marmas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_below="@+id/textViewMamas"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewEight"
+                android:layout_below="@+id/textViewTime"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/eight_extra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewChemistry"
+                android:layout_below="@+id/textViewEight"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/chemistry"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewAstrology"
+                android:layout_below="@+id/textViewChemistry"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/astrology"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewRiver"
+                android:layout_below="@+id/textViewAstrology"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/river_ganga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPlanet"
+                android:layout_below="@+id/textViewRiver"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/planet_house"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewGoddess"
+                android:layout_below="@+id/textViewPlanet"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/goddess_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewGopis"
+                android:layout_below="@+id/textViewGoddess"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/gopis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewOne"
+                android:layout_below="@+id/textViewGopis"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/one_zero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewSun"
+                android:layout_below="@+id/textViewOne"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/sun_earth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewMoon"
+                android:layout_below="@+id/textViewSun"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/moon_earth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewSilver"
+                android:layout_below="@+id/textViewMoon"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/silver_moon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewNumerical"
+                android:layout_below="@+id/textViewSilver"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/numerical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewMeditation"
+                android:layout_below="@+id/textViewNumerical"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/meditation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewBreath"
+                android:layout_below="@+id/textViewMeditation"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/breath"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPath"
+                android:layout_below="@+id/textViewBreath"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/path_to_god"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewSmaller"
+                android:layout_below="@+id/textViewPath"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/smaller_division"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewHindu"
+                android:layout_below="@+id/textViewSmaller"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/hinduism"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewIslam"
+                android:layout_below="@+id/textViewHindu"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/islam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewJain"
+                android:layout_below="@+id/textViewIslam"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/jain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewSikh"
+                android:layout_below="@+id/textViewJain"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/sikh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewBudh"
+                android:layout_below="@+id/textViewSikh"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/budh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewChinese"
+                android:layout_below="@+id/textViewBudh"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/chines"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewStage"
+                android:layout_below="@+id/textViewChinese"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/stage_soul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+            <TextView
+                android:id="@+id/textViewMeru"
+                android:layout_below="@+id/textViewStage"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/meru"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewDance"
+                android:layout_below="@+id/textViewMeru"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/dance"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewPraise"
+                android:layout_below="@+id/textViewDance"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/praise_worth"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textViewfirstMen"
+                android:layout_below="@+id/textViewPraise"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/first_man"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

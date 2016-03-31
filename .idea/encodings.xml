@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/shiva/hanumanji/PearlActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/viewpager/PagerAdapter.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/viewpager/ViewPager.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/new_slide_top_to_bottom.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/slide_down.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/slide_out_up.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/ball_new_item.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

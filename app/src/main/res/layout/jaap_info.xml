@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#AA000000"
+
+
+    >
+
+    <LinearLayout
+        android:background="@drawable/rounded_bg_brown_color"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:id="@+id/linearLayoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:visibility="gone"
+                android:id="@+id/imageViewBack"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/back"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <customlayout.CustomTextViewRegular
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:textColor="@color/menutextcolor"
+                android:textSize="25dp"
+                android:text="About Us"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:visibility="visible"
+                android:id="@+id/imageViewDismiss"
+                android:src="@mipmap/browncross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="@dimen/menu_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/textViewMantra"
+                android:textSize="@dimen/fifteen_brush"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+
+                android:layout_weight="1"
+                android:text="@string/impotance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="@dimen/fab_margin"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/textViewMantra"
+                android:textSize="@dimen/fifteen_brush"
+                android:textStyle="bold"
+                android:textColor="@color/about_us_data_color"
+                android:text="@string/devotee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/menu_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_next"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_margin="@dimen/menu_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:textSize="@dimen/fifteen_brush"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/menutextcolor"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="@string/grace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="visible"
+            android:layout_margin="@dimen/menu_margin"
+
+            android:layout_marginTop="@dimen/fab_margin"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textViewIAmAsked"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/info"
+                android:gravity="center|left"
+                android:layout_weight="1"
+                android:text="@string/jaap_def"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

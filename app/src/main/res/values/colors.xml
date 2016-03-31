@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="coloryellow">#edb403</color>
+    <color name="menucolor">#f9eed2</color>
+    <color name="menutextcolor">#521302</color>
+    <color name="white">#ffffff</color>
+    <color name="thareja">#d27d11</color>
+    <color name="about_us_data_color">#c9c9c9</color>
+    <color name="blue_color">#478de1</color>
+    <color name="edit_text_background">#fff8e5</color>
+    <color name="edit_text_hint_color">#eae7e2</color>
+    <color name="light_blue">#56b5e5</color>
+    <color name="red">#f3494c</color>
+    <color name="docs_color">#f8ebc8</color>
+    <color name="black_color">#000000</color>
+    <color name="footer_color">#aaaaa9</color>
+    <color name="view_color">#e4dede</color>
+    <color name="paintcolor">#541800</color>
+    <color name="paintbackground">#E3D4B3</color>
+    <color name="transparent">#00000000</color>
+    <color name="info">#bfbfbf</color>
+
+
+</resources>

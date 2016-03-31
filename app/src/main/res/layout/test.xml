@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+
+    <LinearLayout
+        android:background="@color/coloryellow"
+        android:visibility="visible"
+        android:id="@+id/linearLayoutHeader"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewBell"
+            android:layout_weight="1"
+            android:src="@android:drawable/star_big_off"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/menutextcolor"
+            android:text="New Alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:padding="@dimen/activity_horizontal_margin"
+            android:id="@+id/imageViewSetReminder"
+            android:layout_weight="1"
+            android:src="@android:drawable/checkbox_on_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/medium_brush"
+        android:id="@+id/textViewReminders"
+        android:textColor="@color/menutextcolor"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/linearLayoutHeader"
+        android:text="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/llSundayMain"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="3"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/textViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text ="Sunday"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:id="@+id/checkBoxSunday" />
+
+        <CheckBox
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text ="Monday"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:id="@+id/checkBoxMonday" />
+
+
+        <CheckBox
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text ="Tuesday"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/activity_horizontal_margin"
+            android:id="@+id/checkBoxTuesday" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:id="@+id/llWenesdayMain"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/llSundayMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Wednesday"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:id="@+id/checkBoxWednesday" />
+
+
+
+            <CheckBox
+                android:text="Thursday"
+                android:layout_weight="1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:id="@+id/checkBoxThursday" />
+
+
+
+            <CheckBox
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Friday"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:id="@+id/checkBoxFriday" />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSaturdayMain"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/llWenesdayMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <CheckBox
+                android:text ="Saturday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/activity_horizontal_margin"
+                android:id="@+id/checkBoxSaturday" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/llSaturdayMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TimePicker
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    >
+    <RelativeLayout
+    android:background="@color/coloryellow"
+    android:id="@+id/linearLayoutHeader"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageViewBack"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:src="@mipmap/back"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <customlayout.CustomTextViewRegular
+        android:layout_centerInParent="true"
+        android:textColor="@color/menutextcolor"
+        android:textSize="25dp"
+
+        android:text="hello hanuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+
+        android:visibility="invisible"
+        android:id="@+id/imageViewInformation"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_below="@+id/linearLayoutHeader"
+    android:background="@color/black_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:layout_margin="@dimen/large_brush"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Shake the phone to ring the bell or touch to play"
+        android:id="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+       />
+
+    <ImageView
+        android:src="@mipmap/bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewBell"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</RelativeLayout>
